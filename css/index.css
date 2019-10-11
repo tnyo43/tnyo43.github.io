@@ -28,3 +28,17 @@ body {
     background-image: url("images/pattern.png");
     color: white;
 }
+
+.work-row {
+    margin-bottom: 40px;
+}
+
+.carousel {
+    min-height: 600px !important;
+}
+
+.carousel img {
+    height: 700px;
+    width: auto;
+    max-height: 700px;
+}
