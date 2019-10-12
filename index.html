@@ -49,8 +49,7 @@
   </div>
 
   <div class="container">
-    <div class="starter-template">
-
+    <div class="starter-template">     
       <h2>自己紹介</h2>
       <p>阿南高専出身。高専在学中に高専プロコンの競技部門に参加した。
       <br>H29年には全国高専社会実装フォーラムに参加し、AndroidアプリケーションとWebアプリケーションで作成した作品で賞を受賞した。
@@ -63,16 +62,13 @@
 
       <h2 id="works">Works</h2>
       <div class="row work-row">
+        <h3>救急救援支援システム・救&援</h3><br>
         <div class="col-sm-6">
-          <h3>救急救援支援システム・救&援</h3>
           <p>　近く人が急に倒れた、怪我をしたような緊急時に迅速かつ的確な判断を下すのは難しい。このアプリケーションは緊急時の状況判断、対応、連絡をサポートするためのシステムである。アプリケーションを立ち上げた後は、テキストと音声に従ってボタンをタップするだけである。
           <br>　作成にあたり、徳島県阿南市にある阿南市消防本部にヒアリングを繰り返し行い、多くの人が使いやすくなるようなUI、UXに気を使いながら作成した。
           <br>　<a href="http://www.innovative-kosen.jp/dev/%E5%B9%B3%E6%88%9029%E5%B9%B4%E5%BA%A6%E6%9C%80%E7%B5%82%E5%A0%B1%E5%91%8A%E4%BC%9A%E3%81%AE%E7%B5%90%E6%9E%9C-1/">H29社会実装教育フォーラム</a>で発表</p>
           
           <br>
-
-          <h4>作成期間</h4>
-          <p>2017年8月〜12月</p><br>
 
           <h4>コンセプト</h4>
           <ul>
@@ -81,10 +77,23 @@
             <li>情報漏れを無くしてスピーディーに</li>
           </ul><br>
 
-          <h4>使用言語</h4>
-          <p>Java</p><br>
-          <h4>開発環境</h4>
-          <p>AndroidStudio</p><br>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">作成時期</th>
+                <td>2017年8月〜12月</td>
+              </tr>
+              <tr>
+                <th scope="row">使用言語</th>
+                <td>Java</td>
+              </tr>
+              <tr>
+                <th scope="row">開発環境</th>
+                <td>AndroidStudio</td>
+              </tr>
+            </tbody>
+          </table>
           <a href="https://github.com/tnyo43/RescueAidAndroid">GitHubリンク</a>
         </div>
         <div class="col-sm-6">
@@ -128,20 +137,36 @@
         </div>
       </div>
       <div class="row work-row">
+        <h3>留守番見守りシステム・RusubanApp</h3><br>
         <div class="col-sm-6">
-          <h3>留守番見守りシステム・RusubanApp</h3>
           <p>留守番をする子供と見守りたい保護者を繋ぐシステムを作成した。
           <br>保護者はスマホで音声を保存して子供に送信、子供の様子は常にカメラで確認できる。
           <br><a href="http://www.cs.tsukuba.ac.jp/syllabus/current/01CH749.html">組み込みプログラム開発</a>の授業でグループで作成。Androidアプリケーションの実装を担当した。
           <br>子供が使うデバイスはカメラ、スピーカー、パトランプなどを組み込み、raspberrypiで動かした。</p>
           <br>
 
-          <h4>作成時期</h4>
-          <p>2019年6月</p><br>
-          <h4>使用言語</h4>
-          <p>Kotlin</p><br>
-          <h4>開発環境</h4>
-          <p>AndroidStudio</p><br>
+          <h4>コンセプト</h4>
+          <ul>
+            <li>保護者が安心できる機能</li>
+            <li>子供が使いやすい音声ベースのやりとり</li>
+          </ul><br>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">作成時期</th>
+                <td>2019年6月</td>
+              </tr>
+              <tr>
+                <th scope="row">使用言語</th>
+                <td>Kotlin</td>
+              </tr>
+              <tr>
+                <th scope="row">開発環境</th>
+                <td>AndroidStudio</td>
+              </tr>
+            </tbody>
+          </table>
           <a href="https://github.com/tnyo43/RusubanApp">GitHubリンク</a>
         </div>
         <div class="col-sm-6">
@@ -177,8 +202,8 @@
         </div>
       </div>
       <div class="row work-row">
+        <h3>DamageJacket (DamageSuit)</h3><br>
         <div class="col-sm-6">
-          <h3>DamageJacket (DamageSuit)</h3>
           <p>ゲームをより楽しくするVRデバイス。ゲーム内で発生するダメージ、衝撃などの刺激を振動モータのと衝撃アクチュエータの刺激に変換してプレイヤーに臨場感を与える。
           <br>振動モータを駆動させるためのリレー制御、電磁石とバネの力を利用した衝撃アクチュエータなど自分たちで作成した。
           <br>また、自分たちがゲームを開発するだけでなく、Unityで使える開発者用ミドルウェアを作成した。
@@ -186,40 +211,71 @@
 
           <br>
 
-          <h4>作成期間</h4>
-          <p>2018年10月 ~ 2019年1月</p><br>
-          <h4>使用言語</h4>
-          <p>C#</p><br>
-          <h4>開発環境</h4>
-          <p>Unity</p><br>
+          <h4>コンセプト</h4>
+          <ul>
+            <li>ゲームに新しい臨場感</li>
+            <li>実際に遊んで楽しいデバイス</li>
+            <li>第三者がデバイスを使うゲームを開発しやすく</li>
+          </ul><br>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">作成時期</th>
+                <td>2018年10月 ~ 2019年1月</td>
+              </tr>
+              <tr>
+                <th scope="row">使用言語</th>
+                <td>C#</td>
+              </tr>
+              <tr>
+                <th scope="row">開発環境</th>
+                <td>Unity</td>
+              </tr>
+            </tbody>
+          </table>
           <a href="https://github.com/COJT-DamageJacket">GitHubリンク</a>
         </div>
         <div class="col-sm-6">
-            <div style="height: 100px;"></div>
-            <p>成果発表（0:00~4:35）</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GOw3qMKOeSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>成果発表（0:00~4:35）</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GOw3qMKOeSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div class="row work-row">
+        <h3>ポケモンステータス</h3><br>
         <div class="col-sm-6">
-          <h3>ポケモンステータス</h3>
           <p>Elmの練習として作成したアプリケーション。ポケモンのパラメータ（種族値、個体値、努力値、性格補正）からバトルで使う実数値を計算する。
           <br>PokéAPIのデータを使用している。
           <br><a href="https://tnyo43.hatenablog.com/entry/2019/05/06/141525">Elmの体験記も書いた</a></p>
           <br>
 
-          <h4>作成時期</h4>
-          <p>2019年5月</p><br>
-          <h4>使用言語</h4>
-          <p>Elm</p><br>
+          <h4>コンセプト</h4>
+          <ul>
+            <li>Elmの使いやすさを味わいながら作成（開発者目線）</li>
+            <li>Elmはいいぞ</li>
+            <li>ポケモンもいいぞ</li>
+          </ul><br>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">作成時期</th>
+                <td>2019年5月</td>
+              </tr>
+              <tr>
+                <th scope="row">使用言語</th>
+                <td>Elm<td>
+              </tr>
+            </tbody>
+          </table>
           <a href="https://github.com/tnyo43/PokemonStatus">GitHubリンク</a><br>
           <a href="https://tnyo43.github.io/PokemonStatus/">ポケモンステータスを実行できるページ</a><br>
           
         </div>
       </div>
       <div class="row work-row">
+        <h3>競技プログラミング</h3><br>
         <div class="col-sm-6">
-          <h3>競技プログラミング</h3>
           <p>課題をより早く与えられた要求を満足するプログラムを正確に記述することを競う。
           <br>主にAtCoderのコンテストに参加している。
           <br>現在のAtCoderでのランクは青で、「青以上は一部上場のIT企業でも、一人もいないことが結構あるレベル」（<a href="http://chokudai.hatenablog.com/entry/2019/02/11/155904">高橋直大氏のブログ</a><br>より引用）
@@ -227,10 +283,25 @@
           
           <br>
 
-          <h4>取り組み時期</h4>
-          <p>2018年3月~</p><br>
-          <h4>使用言語</h4>
-          <p>C++、Python</p><br>
+          <h4>コンセプト</h4>
+          <ul>
+            <li>最強最速を目指す</li>
+            <li>WAになっても泣かないしょげない</li>
+            <li>1つ気づくごとに自分を天才と褒めてあげる</li>
+          </ul><br>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">取り組み時期</th>
+                <td>2018年3月~</td>
+              </tr>
+              <tr>
+                <th scope="row">使用言語</th>
+                <td>C++、Python</td>
+              </tr>
+            </tbody>
+          </table>
           <a href="https://atcoder.jp/users/tnyo43">AtCoderのプロフィール</a><br>
           <a href="https://github.com/tnyo43/algorithms">競技プログラミング用のC++のライブラリを作成中</a><br>
           
@@ -241,7 +312,7 @@
       <h4>使用言語</h4>
       <ul>
         <li>C++（競技プログラミング）</li>
-        <li>C#（Unity）</li>
+        <li>C#</li>
         <li>Java</li>
         <li>Kotlin</li>
         <li>Python</li>
@@ -271,7 +342,7 @@
       <h4>趣味</h4>
       <ul>
         <li>ツーリング・ドライブ</li>
-        <li>ポケモンのゲーム</li>
+        <li>ポケモンのゲーム（次のシリーズはシールド予約中）</li>
         <li>魚料理</li>
       </ul>
       <h4>外部リンク</h4>
