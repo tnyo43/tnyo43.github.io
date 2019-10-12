@@ -10,6 +10,7 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/timeline.css">
 </head>
 
 <body>
@@ -27,6 +28,7 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
+          <li><a href="#history">History</a></li>
           <li><a href="#works">Works</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#others">Others</a></li>
@@ -49,16 +51,88 @@
   </div>
 
   <div class="container">
-    <div class="starter-template">     
-      <h2>自己紹介</h2>
-      <p>阿南高専出身。高専在学中に高専プロコンの競技部門に参加した。
-      <br>H29年には全国高専社会実装フォーラムに参加し、AndroidアプリケーションとWebアプリケーションで作成した作品で賞を受賞した。
-      <br>H28年には1年間休学し、ドイツに留学した。ロボカップのチームに参加した。プロジェクトは機械よりだったが、シミュレーションなどのプログラムを作成した。
-      <br>H30年から筑波大学に編入した。競技プログラミングに興味を持ち、AtCoderのレーティングをしている。ICPCの学内予選にも参加した。
-      <br>H31年現在、<a href="http://logic.cs.tsukuba.ac.jp/index-j.html">プログラム論理研究室</a>に所属し、プログラム合成の研究を行っている。
-      </p>
-
-      <br>
+    <div class="starter-template">
+      <h2 id="history">History</h2>
+      <ul class="timeline">
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-education"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">阿南高専制御情報工学科　入学</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-education"></i>2012年4月~2018年3月</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>部活動でプログラミング同好会に所属し高専プロコンに自由、競技部門で出場した。</p>
+              <p>他に吹奏楽部（バストロンボーン・チューバ担当、3年次部長）と留学生のサポートをする英会話クラブに所属。</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-plane"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">ドイツ留学</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-plane"></i>2016年3月~2017年2月</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>休学しドイツ留学。ロボカップのチームに参加し、ロボットの行動を制御を勉強しシミュレーションを作った。</p>
+              <p>ドイツ語を勉強し、A2（英検の準2級相当）を取得して現地の学生と交流を楽しんだ。</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-wrench"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">社会実装プロジェクト</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-wrench"></i>2017年8月~2017年12月</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>緊急時の救急救命支援システムを作成した。地元の消防に意見を聞き、より実用的なシステムを作ることを心がけた。</p>
+              <p>平成29年度社会実装教育フォーラムで「社会実装賞(要素技術・ソフトウェア)」を受賞した。</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-education"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">筑波大学情報学群情報科学類　三年次編入</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-education"></i>2018年4月~(2020年3月卒業予定)</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>主専攻はソフトウェアサイエンス主専攻。</p>
+              <p>ESSと料理サークルに所属。</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-wrench"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">インターンシップ</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-wrench"></i>2018年4月~</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>株式会社スペースタイムエンジニアリングでソフトウェアエンジニアとしてインターンを行っている。</p>
+              <p>災害時の救護活動を支援するシステムのスマートフォンアプリを作成している。</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge"><i class="glyphicon glyphicon-pencil"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">卒業研究</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-pencil"></i>2018年12月~</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>プログラム論理研究室に所属。プログラム合成の研究を行っている。</p>
+              <p>SMTソルバーを作るプロジェクトにも参加した。</p>
+            </div>
+          </div>
+        </li>
+      </ul>
 
       <h2 id="works">Works</h2>
       <div class="row work-row">
@@ -76,7 +150,6 @@
             <li>使うことを躊躇わないように</li>
             <li>情報漏れを無くしてスピーディーに</li>
           </ul><br>
-
 
           <table class="table">
             <tbody>
